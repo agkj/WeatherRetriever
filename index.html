@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Weather retriever</h1>
+        <form > 
+            <input type="text" id="city_input" placeholder="Enter a city to retrieve weather forecast">
+            <input type="submit" value="Get weather">
+        </form>
+
+        
+
+            <div id="weather_data">
+                <div class="country"></div>
+                <div class = "temp_data">
+                    <div class="icon">
+                        <!--<img src="http://openweathermap.org/img/wn/01d.png" alt="Weather icon">-->
+                    </div>
+                    <div class="temperature"></div>
+
+                </div>
+                
+                <div class="description"></div>
+                <div class="details">
+                    <!-- <div> Feels like 30°C</div>
+                    <div> Humidity: 30%</div>
+                    <div> Wind speed: 13m/s</div> -->
+                </div>
+
+            </div>
+        
+
+    </div>
+
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
